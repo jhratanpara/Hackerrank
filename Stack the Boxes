@@ -1,0 +1,20 @@
+
+#Here's an image of four models. Some of the cubes are hidden behind other cubes. Model one consists of one cube. Model two consists of four cubes, and so on...
+
+#Stack the Boxes
+
+#Write a function that takes a number n and returns the number of stacked boxes in a model, visible and invisiblewhere n is levels high.
+
+
+def stack_boxes(n):
+		levels_high=n
+		total=int(n**2)
+		invisible=int((n-1)**2)
+		visible=int(total-invisible)
+		return n
+		print(levels_high)
+		print(invisible)
+		print(visible)
+		
+	
+	
